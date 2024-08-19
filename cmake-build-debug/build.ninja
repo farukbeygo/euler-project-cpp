@@ -55,6 +55,12 @@ build CMakeFiles/euler-project-cpp.dir/problems/problem1.cpp.obj: CXX_COMPILER__
   OBJECT_DIR = CMakeFiles\euler-project-cpp.dir
   OBJECT_FILE_DIR = CMakeFiles\euler-project-cpp.dir\problems
 
+build CMakeFiles/euler-project-cpp.dir/problems/problem2.cpp.obj: CXX_COMPILER__euler-project-cpp_unscanned_Debug C$:/Users/admin/Documents/GitHub/euler-project-cpp/problems/problem2.cpp || cmake_object_order_depends_target_euler-project-cpp
+  DEP_FILE = CMakeFiles\euler-project-cpp.dir\problems\problem2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\euler-project-cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\euler-project-cpp.dir\problems
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target euler-project-cpp
@@ -63,7 +69,7 @@ build CMakeFiles/euler-project-cpp.dir/problems/problem1.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable euler-project-cpp.exe
 
-build euler-project-cpp.exe: CXX_EXECUTABLE_LINKER__euler-project-cpp_Debug CMakeFiles/euler-project-cpp.dir/problems/problem1.cpp.obj
+build euler-project-cpp.exe: CXX_EXECUTABLE_LINKER__euler-project-cpp_Debug CMakeFiles/euler-project-cpp.dir/problems/problem1.cpp.obj CMakeFiles/euler-project-cpp.dir/problems/problem2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\euler-project-cpp.dir
